@@ -31,8 +31,7 @@ Este projeto implementa um semáforo utilizando o microcontrolador **Raspberry P
 Clone este repositório em sua máquina local:
 
 ```bash
-git clone https://github.com/seu-usuario/semaforo-pico.git
-cd semaforo-pico
+git clone https://github.com/lipesilvapr/Atv-Semaforo.git
 ```
 
 ### 2. Configure o `CMakeLists.txt`

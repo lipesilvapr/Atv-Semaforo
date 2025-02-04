@@ -78,19 +78,3 @@ Se você estiver usando o simulador Wokwi:
 ### Funções Importantes
 - `repeating_timer_callback()`: Função de callback chamada a cada 3 segundos para alternar os estados do semáforo.
 - `main()`: Rotina principal que inicializa os LEDs e imprime mensagens na porta serial.
-
----
-
-## Como Testar
-
-### 1. No Hardware
-- Conecte os LEDs aos pinos GPIO conforme o diagrama:
-  - **GPIO13**: LED vermelho.
-  - **GPIO12**: LED amarelo.
-  - **GPIO11**: LED verde.
-- Conecte o Raspberry Pi Pico W ao computador via USB.
-- Abra o monitor serial no VS Code ou use uma ferramenta como `minicom` ou `PuTTY` para visualizar as mensagens.
-
-### 2. No Simulador Wokwi
-- Execute o projeto no Wokwi e observe os LEDs mudando de estado.
-- Verifique a saída serial na aba "Serial Monitor".
